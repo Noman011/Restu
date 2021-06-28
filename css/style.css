@@ -1,0 +1,528 @@
+/* All Common css */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+.mr{
+    margin-right: 0 !important;
+}
+.full_wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* All common css End */
+.header{
+    position: fixed;
+}
+.logo{
+    width: 270px;
+    float: left;
+}
+.menu_item{
+    width: 900px;
+    float: left;
+    text-align: right;
+}
+.menu_item ul li{
+    display: inline-block;
+}
+.menu_item ul li a{
+    text-transform: capitalize;
+    color: #fff;
+    padding-left: 30px;
+    line-height: 80px;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 21px;
+    font-weight: 700;
+    position: relative;
+}
+.menu_item ul li a:hover:before {
+	position: absolute;
+	height: 3px;
+	width: 50px;
+	top: -26px;
+	left: 33px;
+	background: #C6C4BE;
+	content: "";
+}
+/* Banner Part Start */
+
+.banner {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 235px;
+    padding-bottom: 145px;
+}
+.banner_item{
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.banner_text{
+    width: 959px;
+    margin: 0 auto;
+}
+.banner_text h3{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 90px;
+    color: #fff;
+}
+.banner_text img{
+    padding-top: 33px;
+    padding-bottom: 34px;
+}
+.banner_btn1 a{
+    color: #fff;
+    border: 1px solid black;
+    padding: 22px 50px;
+    margin-right: 30px;
+    margin-left: 372px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background: rgba(26, 23, 23, 0.597);
+    float: left;
+    text-transform: capitalize;
+}
+.banner_btn2 a{
+    color: #fff;
+    border: 1px solid #EAE4C1;
+    padding: 22px 50px;
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    float: left;
+    text-transform: capitalize;
+}
+.item{
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    background: url(../images/bgoverly.png);
+    padding-top: 105px;
+    padding-bottom: 85px;
+}
+.plate{
+    margin: 0 auto;
+}
+.item_text{
+    width: 400px;
+    float: left;
+    margin-right: 75px;
+    margin-left: 100px;
+}
+.item_text h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #CC9900;
+    text-align: center;
+}
+.item_text img{
+    padding-top: 16px;
+    padding-bottom: 33px;
+    padding-left: 75px;
+}
+.item_text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center; 
+    padding-bottom: 54px;
+}
+.image{
+    margin-left: 30px;
+}
+.photooo{
+    width: 500px;
+    float: left;
+}
+.photooo img{
+    width: 100%;
+}
+/* 3rd Banner */
+.fine-banner{
+    background: url(../images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.food{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background: rgba(0, 0, 0, 0.659);
+    width: 570px;
+    text-align: center;
+    float: right;
+}
+.food h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+.food p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    width: 400px;
+    margin: 0 auto;
+    line-height: 25px;
+}
+.food img{
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.foo{
+    float: left;
+    margin: 0 auto;
+}
+.foo img{
+    width: 100%;
+    padding-right: 30px;
+    padding-top: 74px;
+    margin-left: 30px;
+    
+}
+/* 4th Banner */
+
+.items{
+    background: url(../images/4th.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.th-overly{
+    background: url(../images/4thoverly.png);
+    padding-top: 107px;
+    padding-bottom: 100px;
+}
+.food_menu{
+    text-align: center;
+    width: 480px;
+    margin-right: 210px;
+    float: left;
+}
+.food_menu h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #CC9900;
+}
+.food_menu img{
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.food_menu h4{
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    font-weight: 400;
+    color: #CC9900;
+    text-align: left;
+    border-bottom: 1px solid #E0D2A3;
+    padding-bottom: 15px;
+}
+.food_menu span{
+    text-align: right;
+}
+.food_menu p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+/* 5th PArt */
+.comment{
+    background: url(../images/banner5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.review{
+    background: rgba(0, 0, 0, 0.659);
+    width: 630px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    
+}
+.review h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+.review img{
+    padding-top: 24px;
+    padding-bottom: 33px;
+}
+.review p{
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 22px;
+    width: 440px;
+    margin: 0 auto;
+}
+.review h5{
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    padding-top: 70px;
+}
+/* 6th part Start */
+.order{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.picture-image{
+    float: left;
+}
+.picture{
+    width: 256px;
+    margin-right: 30px;
+    float: left;
+}
+.picture img{
+    width: 100%;
+}
+.login{
+    text-align: center;
+    margin-left: 115px;
+    width: 513px;
+    float: left;
+
+}
+.login h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #CC9900;
+}
+.login img{
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+.login p{
+    width: 380px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 20px;
+}
+.from{
+    text-align: left;
+    padding-top: 30px;
+    
+}
+.contactPartone{
+    float: left;
+    width: 241px;
+    margin-right: 30px;
+}
+.contact{
+    float: left;
+    width: 241px;
+    margin-right: 30px;
+}
+.contact h4{
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    color: #CC9900;
+    padding-bottom: 10px;
+}
+input{
+    padding: 14px 49px;
+    border: 1px solid #CC9900;
+}
+.pdd{
+    padding: 14px 63px;
+}
+.contactparttwo{
+    float: left;
+    width: 241px;
+    
+}
+.pd{
+    margin-bottom: 28px;
+}
+input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.btn{
+    text-align: center;
+}
+button{
+    background: #CC9900;
+    padding: 10px 60px;
+    margin-top: 30px;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+/* 7th part start */
+.footer{
+    padding-top: 92px;
+    padding-bottom: 70px;
+    background: black;
+}
+.main_footer{
+    text-align: center;
+}
+.footer_one{
+    width: 340px;
+    float: left;
+    margin-right: 135px;
+}
+.footer_one h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+.footer_one img{
+    width: 60%;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.footer_one p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 24px;
+}
+.footer_two{
+    width: 247px;
+    float: left;
+    margin-right: 200px;
+}
+.footer_two h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer_two img{
+    width: 80%;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.footer_two p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 24px;
+}
+.cards{
+    float: left;
+}
+.cards img{
+    width: 20%;
+    margin-right: 5px;
+    margin-top: 20px;
+    
+}
+.footer_three{
+    width: 247px;
+    float: left;
+    
+}
+.footer_three h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer_three img{
+    width: 80%;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.footer_three p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 24px;
+    width: 200px;
+    margin: 0 auto;
+}
+.footer_social_icons a{
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: 5px;
+    box-shadow: 0 10px 10px rgba(43, 100, 100, 0.1);
+    margin-top: 20px;
+    background-size: 100% 200%;
+    background-position: 0% 5%;
+    transition: background-position 0.5s, color 0.5s;
+}
+.footer_social_icons a:nth-child(1){
+    color: #1976D3;
+    background-image: linear-gradient(#fff 50%, #1976D3 50%);
+}
+.footer_social_icons a:nth-child(2){
+    color: #03A9f5;
+    background-image: linear-gradient(#fff 50%, #03A9f5 50%);
+}
+.footer_social_icons a:nth-child(3){
+    color: #F44236;
+    background-image: linear-gradient(#fff 50%, #F44236 50%);
+}
+.footer_social_icons a:nth-child(4){
+    color: #0077B5;
+    background-image: linear-gradient(#fff 50%, #0077B5 50%);
+}
+.footer_social_icons a:hover{
+    background-position: 0% 100%;
+    color: #fff;
+}
